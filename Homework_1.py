@@ -5,6 +5,8 @@ while True:
         a = input_value[1:4]
         b = a[::-1]
         print(input_value[0] + b + input_value[-1])
+    elif input_value == "":
+        break
     else:
         print("It's not five-digit number")
 
